@@ -16,6 +16,16 @@ y = []
 for x in [1, 2, 3, 4, 5]:
     y.append(x)
 
+# y_comprehension = [num for num in range(1, 6)]
+
+
+# for i in x:
+#     if(int(i) % 2 ==0):
+#         y.append(i)
+# print(y)
+
+# y_comprehension2 = [ i for i in x if int(i) % 2 == 0]
+# [2,4,8,16]
 
 # Write a list comprehension to produce the cubes of the numbers 0-9:
 # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
