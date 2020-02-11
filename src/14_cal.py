@@ -31,7 +31,7 @@ def show_calendar(month, year):
     print(str)
 
 # Accept user input
-date = input("Enter month & year, example 9/2020: ").split('/')
+date = input("Enter month and year, example 9/2020: ").split('/')
 
 # If user input is empty, print the calendar for the current month.
 if len(date) <= 1 and len(date[0]) < 1:
@@ -47,4 +47,4 @@ elif len(date) == 2:
     year = int(date[1])
     show_calendar(month, year)
 else:
-    print("Enter month & year, example 9/2020")
+    print("Enter month and year, example 9/2020")
