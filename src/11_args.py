@@ -42,10 +42,7 @@ print(f2(*a))  # Should print 22
 
 
 def f3(a, b=1):
-    if a:
-        print(a + b)
-    else:
-        print(b)
+    return a + b
 
 
 print(f3(1, 2))  # Should print 3
@@ -81,4 +78,4 @@ f4(city="Berkeley", population=121240, founded="March 23, 1868")
 d = {"monster": "goblin", "hp": 3}
 
 # What thing do you have to add to make this work?
-f4(a=d)
+f4(**d)
